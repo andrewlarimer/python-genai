@@ -583,10 +583,10 @@ async def test_bidi_setup_to_api_speech_config(vertexai):
           'model': 'models/test_model',
           'generationConfig': {
               'speechConfig': {
-                  'voiceConfig': {
-                      'prebuiltVoiceConfig': {'voiceName': 'en-default'}
+                  'voice_config': {
+                      'prebuilt_voice_config': {'voice_name': 'en-default'}
                   },
-                  'languageCode': 'en-US',
+                  'language_code': 'en-US',
               },
               'temperature': 0.7,
               'topP': 0.8,
